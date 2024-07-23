@@ -430,3 +430,39 @@ label {
     font-size: 15px;
     font-family: "Ubuntu Sans", sans-serif;
 }
+@media only screen and (min-width: 700px) {
+    .getintouch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .information {
+        width: 40%;
+    }
+
+    .form {
+        width: 40%;
+    }
+
+    .name {
+        width: 99%;
+    }
+
+    .firstname {
+        width: 49%;
+    }
+
+    .lastname {
+        width: 49%;
+    }
+
+    select {
+        width: 99%;
+        height: 40px;
+    }
+
+    #message {
+        width: 98%;
+    }
+}
