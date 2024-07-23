@@ -240,3 +240,15 @@ footer p a {
     font-size: 18px;
     font-family: "Ubuntu Sans", sans-serif;
 }
+@media only screen and (min-width: 700px) {
+    .flowershop img {
+        width: 92%;
+        height: 40vh;
+    }
+
+    .flowershop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
