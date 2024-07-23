@@ -214,3 +214,29 @@ footer p a {
         text-align: center;
     }
 }
+
+/* shop.html */
+
+.flowershop img {
+    width: 90%;
+    height: 35vh;
+
+}
+
+.flower a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flower p {
+    line-height: 0px;
+    font-size: 18px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
