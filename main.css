@@ -252,3 +252,14 @@ footer p a {
         justify-content: space-evenly;
     }
 }
+
+/* ourstory.html */
+
+.ourstory {
+    margin: 15px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.ourstoryimg img {
+    width: 100%;
+}
