@@ -290,3 +290,63 @@ footer p a {
     font-size: 40px;
     font-family: "Sawarabi Mincho", serif;
 }
+@media only screen and (min-width: 700px) {
+    .ourstoryimg {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 25px;
+
+        img {
+            width: 50%;
+            height: 50vh;
+        }
+    }
+
+    .storyheading {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .storyinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .about2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .aboutdet {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .frame1 {
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            width: 300px;
+            margin-left: 100px;
+        }
+    }
+}
