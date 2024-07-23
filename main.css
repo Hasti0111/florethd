@@ -562,3 +562,36 @@ label {
         /* margin:0px 140px 10px 140px;  */
     }
 }
+
+@media only screen and (min-width: 700px) {
+    .bestseller {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    .bestsellerimg {
+        width: 49%;
+    }
+
+    .bestsellerinfo {
+        width: 49%;
+    }
+
+    .bestseller img {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .bestsellermain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+    }
+
+}
