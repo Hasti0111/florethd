@@ -526,3 +526,39 @@ label {
         }
     }
 }
+
+/* bestseller.html */
+
+.bestseller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    margin: 10px;
+    padding: 15px;
+    background-color: #4b5320;
+    color: #FFFFEE;
+    /* width:95%;  */
+
+}
+
+.bestseller img {
+    width: 100%;
+    height: 40vh;
+}
+
+.bestsellerinfo {
+    display: flex;
+    flex-direction: column;
+    /* padding:0px 20px 0px 20px; */
+    width: 90%;
+
+    button {
+        width: 35%;
+        padding: 10px 10px;
+        color: #FFFFEE;
+        background-color: black;
+        /* margin:0px 140px 10px 140px;  */
+    }
+}
