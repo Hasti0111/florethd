@@ -413,6 +413,11 @@ select {
     color: #FFFFEE;
     padding: 10px 20px;
 }
+#submit:hover{
+    color:#FFFFEE;
+    background-color:#4b5320;
+    transition: 0.5s;
+}
 
 #message {
     width: 100%;
