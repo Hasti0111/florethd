@@ -398,3 +398,35 @@ span {
     display: flex;
     flex-direction: column;
 }
+input {
+    width: 98%;
+    height: 30px;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+}
+
+#submit {
+    background-color: black;
+    color: #FFFFEE;
+    padding: 10px 20px;
+}
+
+#message {
+    width: 100%;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+#message {
+    margin-top: 5px;
+}
+
+#service {
+    font-size: 15px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
