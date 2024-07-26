@@ -56,4 +56,4 @@ The website employs several SEO strategies:
 
 **Image Optimization:** Images include alt attributes, and the filenames are descriptive, which can help in image search results.
 
-**github link:** https://github.com/Hasti0111/florethd
+**github link:** https://github.com/Hasti0111/florethd/commits/main/
