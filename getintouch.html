@@ -20,15 +20,15 @@
 <body>
     <div class="header">
         <div class="heading">
-            <h1><a href="index.html">Floret</a></h1>
+            <h1><a href="index.html" tabindex="1">Floret</a></h1>
         </div>
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="ourstory.html">Our Story</a></li>
-                    <li><a href="getintouch.html">Get in Touch</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="shop.html" tabindex="2">Shop</a></li>
+                    <li><a href="ourstory.html" tabindex="3">Our Story</a></li>
+                    <li><a href="getintouch.html" tabindex="4">Get in Touch</a></li>
+                    <li><a href="gallery.html" tabindex="5">Gallery</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,28 +54,28 @@
                 <div class="name">
                     <div class="firstname">
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="fname" required>
+                        <input type="text" id="fname" name="fname" required tabindex="6">
                     </div>
 
                     <div class="lastname">
                         <label for="lname">Last Name</span></label>
-                        <input type="text" id="lname" name="lname">
+                        <input type="text" id="lname" name="lname" tabindex="7">
                     </div>
                 </div><br>
 
                 <div class="email">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" tabindex="8">
                 </div><br>
 
                 <div class="phone">
                     <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]*" inputmode="numeric" title="Please enter a valid phone number">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]*" inputmode="numeric" title="Please enter a valid phone number" tabindex="9">
                 </div><br>
 
                 <div class="service">
                     <label for="service">Service Needed<span class="require">(Required)</span></label>
-                    <select id="service" name="service" required>
+                    <select id="service" name="service" required tabindex="10">
                         <option value="flowers">Event Floral</option>
                         <option value="flowers">Gifting</option>
                         <option value="flowers">Weddings</option>
@@ -85,11 +85,11 @@
 
                 <div id="instructions">
                     <label for="message">Message<span class="require">(Required)</span></label><br>
-                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                    <textarea id="message" name="message" rows="5" cols="40" required tabindex="11"></textarea>
                 </div><br>
 
                 <div>
-                    <button id="submit" type="submit" value="submit">Submit</button>
+                    <button id="submit" type="submit" value="submit" tabindex="12">Submit</button>
                 </div>
             </form>
         </div>
@@ -98,18 +98,18 @@
     <div>
         <footer>
             <p>&copy;Copyright 2021
-                <a href="mailto:floretflowers.com">floretflowers.@example.com </a>
+                <a href="mailto:floretflowers.com" tabindex="13">floretflowers.@example.com </a>
             </p>
             <div>
                 <ul>
-                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#" tabindex="14">Instagram</a></li>
                     <li>|</li>
-                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#" tabindex="15">Facebook</a></li>
                     <li>|</li>
-                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#" tabindex="16">Twitter</a></li>
                 </ul>
             </div>
-            <div class="">
+            <div>
                 <p>Live life in full bloom.</p>
             </div>
 

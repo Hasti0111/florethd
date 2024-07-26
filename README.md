@@ -55,3 +55,5 @@ The website employs several SEO strategies:
 **Heading Tags:** Proper use of heading tags (```<h1>```, ```<h2>```) helps search engines understand the structure and hierarchy of the content.
 
 **Image Optimization:** Images include alt attributes, and the filenames are descriptive, which can help in image search results.
+
+**github link:** https://github.com/Hasti0111/florethd
